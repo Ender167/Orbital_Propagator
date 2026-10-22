@@ -7,7 +7,7 @@ The result is a binary file containing the position and relative energy error of
 * Support for the following factors that affect each object's position and velocity: Earth's central gravity, J2 perturbation;
 * 2 CUDA kernels supporting single and double precision (float/double) to assess tradeoff between execution speed and accuracy;
 * An OpenMP implementation running on the CPU supporting single precision meant to highlight the speedup provided by multithreading and to compare the GPU implementation;
-* A sequential implementation which propagates each individual object one-by-one, used as the base algorithm for measuring the performance increase provided by the parallel implementations;
+* A sequential implementation running on the CPU supporting single precision, used as the base algorithm for measuring the performance increase provided by the parallel implementations;
 * A Python-based visualization tool;
 
 # Metrics
