@@ -10,7 +10,8 @@ import tkinter as tk
 import multiprocessing
 import subprocess
 
-CUDA_EXE = r"E:\Projects\Disertation\CUDA_Object_Tracking\Object_Tracking\x64\Release\Object_Tracking.exe"
+REPO_ROOT = Path(__file__).resolve().parent.parent
+CUDA_EXE = REPO_ROOT / "CUDA_Debris_Tracker" / "Object_Tracking.exe"
 
 EARTH_RADIUS = 6371.0
 POINT_SIZE = 3
